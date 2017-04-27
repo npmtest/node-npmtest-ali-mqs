@@ -1,6 +1,6 @@
 # npmtest-ali-mqs
 
-#### test coverage for  [ali-mqs (v1.2.3)](https://github.com/InCar/ali-mns)  [![npm package](https://img.shields.io/npm/v/npmtest-ali-mqs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ali-mqs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ali-mqs.svg)](https://travis-ci.org/npmtest/node-npmtest-ali-mqs)
+#### basic test coverage for  [ali-mqs (v1.2.3)](https://github.com/InCar/ali-mns)  [![npm package](https://img.shields.io/npm/v/npmtest-ali-mqs.svg?style=flat-square)](https://www.npmjs.org/package/npmtest-ali-mqs) [![travis-ci.org build-status](https://api.travis-ci.org/npmtest/node-npmtest-ali-mqs.svg)](https://travis-ci.org/npmtest/node-npmtest-ali-mqs)
 
 #### The nodejs SDK for aliyun mqs service
 
@@ -10,7 +10,7 @@
 |--:|:--|
 | coverage : | [![istanbul-coverage](https://npmtest.github.io/node-npmtest-ali-mqs/build/coverage.badge.svg)](https://npmtest.github.io/node-npmtest-ali-mqs/build/coverage.html/index.html)|
 | test-report : | [![test-report](https://npmtest.github.io/node-npmtest-ali-mqs/build/test-report.badge.svg)](https://npmtest.github.io/node-npmtest-ali-mqs/build/test-report.html)|
-| build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ali-mqs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ali-mqs/tree/gh-pages/build)|
+| test-server-github : | [![github.com test-server](https://npmtest.github.io/node-npmtest-ali-mqs/GitHub-Mark-32px.png)](https://npmtest.github.io/node-npmtest-ali-mqs/build/app/index.html) | | build-artifacts : | [![build-artifacts](https://npmtest.github.io/node-npmtest-ali-mqs/glyphicons_144_folder_open.png)](https://github.com/npmtest/node-npmtest-ali-mqs/tree/gh-pages/build)|
 
 - [https://npmtest.github.io/node-npmtest-ali-mqs/build/coverage.html/index.html](https://npmtest.github.io/node-npmtest-ali-mqs/build/coverage.html/index.html)
 
@@ -84,7 +84,8 @@
         "prepublish": "grunt",
         "test": "node ./test/main"
     },
-    "version": "1.2.3"
+    "version": "1.2.3",
+    "bin": {}
 }
 ```
 
